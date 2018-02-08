@@ -1,0 +1,122 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage[style=numeric, backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\header{Benjamin }{MOREAU}
+       {PhD Student}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{About}
+    3 Chemin de bonneville
+    44300 Nantes
+    France
+    ~
+    (+33) 6 98 74 86 06
+    \href{mailto:benjamin.moreau1@univ-nantes.fr}{benjamin.moreau1
+    @univ-nantes.fr}
+    \href{mailto:benjamin.moreau@opendatasoft.com}{benjamin.moreau
+    @opendatasoft.com}
+    \href{https://github.com/benjimor}{github.com/benjimor}
+  \section{Languages}
+    Native language: French
+    Professional level: English
+    Notions: Spanish
+  \section{Programming}
+  	Python, Java, C++, C
+  \section{Web Technologies}
+ 	Django, Spring, Node JS, 
+ 	PHP, CSS3 \& HTML5,
+ 	Javascript,
+ 	AngularJS, VueJS
+  \section{Semantic Web}
+  	RDF, OWL, SPARQL, RML,
+  	Triple Pattern Fragments
+  \section{Version Control}
+  	Git, Subversion
+  \section{Databases}
+  	MySQL, CouchDB,
+  	Elastic Search, Neo4j
+  \section{Word Processing}
+  	\LaTeX, Microsoft Word
+\end{aside}
+
+\section{Interests}
+
+Semantic Web, Web of Data, Data Privacy, Data Integration
+
+\section{Education}
+
+\begin{entrylist}
+  \entry
+    {since 2017}
+    {Ph.D. Student}
+    {LS2N \& OpenDataSoft, Nantes}
+    {\emph{Computer Sciences}
+    Supervisors: Pr. Pascal Molli, Patricia Serrano Alvarado}
+  \entry
+    {2015–2017}
+    {Master’s degree}
+    {University of Nantes, Nantes, France}
+    {Software Engineering and Distributed Architectures}
+  \entry
+    {2012–2015}
+    {Bachelor’s degree}
+    {University of Nantes, Nantes, France}
+    {Computer Sciences}
+  \entry
+    {2012}
+    {French Baccalauréat S. with honors}
+    {Lycée Clémenceau, Nantes, France}
+    {}
+\end{entrylist}
+
+\section{Teaching}
+
+\begin{entrylist}
+  \entry
+    {01–05 2018}
+    {Introduction to Research, University of Nantes, France}
+    {Co-supervisor.}
+    {\emph{1 First year Master student working on research topics.}}
+ \end{entrylist}
+
+\section{Experience}
+
+\begin{entrylist}
+  \entry
+    {01–06 2017}
+    {OpenDataSoft, Paris and LS2N, Nantes}
+    {R\&D Internship.}
+    {\emph{Introduce semantic web technologies to OpenDataSoft platform.}}
+  \entry
+    {05–08 2016}
+    {Sopra Steria}
+    {Internship.}
+    {\emph{Development of a web application used to control web services and applications availability.}}
+  \entry
+    {04–08 2015}
+    {Enedis}
+    {Internship.}
+    {\emph{Development of several scripts that collect data.}}
+\end{entrylist}
+
+\section{applications}
+
+\begin{entrylist}
+  \entry
+    {2017}
+    {ODMTP: On Demand Mapper with Triple pattern matching\cite{moreau2017querying}}
+    {\href{https://github.com/benjimor/odmtp-tpf}{github.com/benjimor/odmtp-tpf}}
+    {\emph{A Triple Pattern Fragments server enabling triple pattern matching over non-RDF datasources.}}
+\end{entrylist}
+
+\section{Publications}
+
+\nocite{*}
+\printbibliography[sorting=chronological, heading=subbibliography, heading=none]
+
+\end{document}
